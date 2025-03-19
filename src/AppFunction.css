@@ -1,0 +1,67 @@
+
+.tacks-t {
+    color:forestgreen;
+    
+}
+.task-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 600%; 
+    object-fit: cover; 
+    
+}
+  
+  .tasks-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  
+  .wish-task {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+  }
+  
+  
+
+  .wish-star {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 190px;
+    
+  }
